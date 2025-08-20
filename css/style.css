@@ -48,7 +48,7 @@ img {
 }
 
 #login-form input[type='submit'] {
-    background: #1abc9c;
+    background: rgba(0, 0, 0, 0.4);
     border: none;
     padding: 0.7rem 1.2rem;
     border-radius: 8px;
@@ -59,7 +59,7 @@ img {
 }
 
 #login-form input[type='submit']:hover {
-    background: #16a085;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .hidden {
@@ -83,10 +83,14 @@ img {
     max-width: 80vw;
 }
 
+/* To-do 영역을 화면 중앙에 제한 */
 #todo-list {
     list-style: none;
     padding: 0;
     margin-bottom: 2rem;
+    max-height: 200px; /* 최대 높이 제한 */
+    overflow-y: auto; /* 넘치면 스크롤 */
+    width: 320px;
 }
 
 #todo-list li {
@@ -95,8 +99,8 @@ img {
     border-radius: 8px;
     margin: 0.5rem 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: flex-start;
     backdrop-filter: blur(6px);
     transition: transform 0.2s ease;
 }
@@ -110,7 +114,7 @@ img {
     background: transparent;
     cursor: pointer;
     font-size: 1rem;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 #quote {

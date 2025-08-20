@@ -1,42 +1,42 @@
 const quotes = [
     {
-        quote: 'Carpe diem',
+        quote: 'Carpe diem.',
         author: 'Horace',
     },
     {
-        quote: 'Be yourself',
+        quote: 'Be yourself.',
         author: 'Oscar Wilde',
     },
     {
-        quote: 'I think, therefore I am',
+        quote: 'I think, therefore I am.',
         author: 'René Descartes',
     },
     {
-        quote: 'This too shall pass',
+        quote: 'This too shall pass.',
         author: 'Medieval Persian Sufi poets',
     },
     {
-        quote: 'Life goes on',
+        quote: 'Life goes on.',
         author: 'Unknown',
     },
     {
-        quote: 'Just do it',
+        quote: 'Just do it.',
         author: 'Nike slogan',
     },
     {
-        quote: 'It is what it is',
+        quote: 'It is what it is.',
         author: 'Unknown',
     },
     {
-        quote: 'Love wins',
+        quote: 'Love wins.',
         author: 'Unknown',
     },
     {
-        quote: 'I am enough',
+        quote: 'I am enough.',
         author: 'Unknown',
     },
     {
-        quote: 'Embrace change',
+        quote: 'Embrace change.',
         author: 'Unknown',
     },
 ];
